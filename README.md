@@ -1,7 +1,5 @@
-# CGPA-Prediction
-# Prediction of Cumulative
 
-# Grade Point Average
+# Prediction of Cumulative Grade Point Average
 
 ```
 ```
@@ -18,14 +16,14 @@ For the given problem statement and dataset we have 42 features of different cou
 ##### LIBRARIES USED:
 
 ```
- Numpy (Python library used for working with arrays)
- Pandas (Python package that is most widely used for data science/data analysis and machine learning tasks)
- Matplotlib (a comprehensive library for creating static, animated, and interactive visualizations in Python)
- Seaborn (Python data visualization library based on matplotlib. It provides a high-level interface for drawing
+- Numpy (Python library used for working with arrays)
+- Pandas (Python package that is most widely used for data science/data analysis and machine learning tasks)
+- Matplotlib (a comprehensive library for creating static, animated, and interactive visualizations in Python)
+- Seaborn (Python data visualization library based on matplotlib. It provides a high-level interface for drawing
 attractive and informative statistical graphics)
- Sklearn (It provides a selection of efficient tools for machine learning and statistical modeling including
+- Sklearn (It provides a selection of efficient tools for machine learning and statistical modeling including
 classification, regression, clustering and dimensionality reduction via a consistence interface in Python)
- Joblib (Joblib is a set of tools to provide lightweight pipelining in Python). We used it to store our models
+- Joblib (Joblib is a set of tools to provide lightweight pipelining in Python). We used it to store our models
 weights in .joblib files
 ```
 #### DATASET:
@@ -39,11 +37,11 @@ Describe Data Columns: The Numbers of Missing Values:
 ##### INSIGHTS:
 
 ```
- ' CGPA ' is the target column/variable.
- 'Seat No' doesn't contribute to the target variable 'CGPA'. So, we can remove it from the data.
- As there are a lot of missing values in the columns 'CS-412' and 'CS-406' , we can remove it from the data.
- 'PH-121' , 'HS-101' , 'CS-105' , 'CGPA' doesn't have any missing values.
- Other Columns has less number of missing values. We have to impute those using different techniques.
+- ' CGPA ' is the target column/variable.
+- 'Seat No' doesn't contribute to the target variable 'CGPA'. So, we can remove it from the data.
+- As there are a lot of missing values in the columns 'CS-412' and 'CS-406' , we can remove it from the data.
+- 'PH-121' , 'HS-101' , 'CS-105' , 'CGPA' doesn't have any missing values.
+- Other Columns has less number of missing values. We have to impute those using different techniques.
 ```
 ##### 1. VISUALIZATION OF INDIVIDUAL FEATURES:
 
@@ -67,8 +65,6 @@ Common techniques.
 ###### 3. ONE-HOT ENCODING: It would complicate the dataset  we have already 42 columns.
 
 ###### 4. ORDINAL ENCODING: Grades points have relations and order with each other. (i.e A+ has much importance
-
-```
 Than D -).
 We have assigned greater numerical values to greater grade points.
 ```
@@ -84,22 +80,22 @@ Increase the complexity of the algorithm, thus increasing the risk of errors.
 ##### INSIGHTS:
 
 ```
- We know that every subject from different year are marked separately, advance courses are not included
+1. We know that every subject from different year are marked separately, advance courses are not included
 Previous related course marks.
- That’s why there is no positive or negative high correlations among courses.
- Every feature is unique and bring new information.
+2. That’s why there is no positive or negative high correlations among courses.
+3. Every feature is unique and bring new information.
 ```
 #### 4. HANDLING MISSING VALUES:
 
 **1. Impute all Columns of all Years Courses with its majority class (MODE).**
-     At First place, given data is categorical.
-     Second, Dataset has a skewed (very little).
-     That’s why filling missing data with mode is the best option.
+    - At First place, given data is categorical.
+    - Second, Dataset has a skewed (very little).
+    - That’s why filling missing data with mode is the best option.
 
 
 **2. Removing features** :
-     In CS-406 and CS-412 there are 85 and 79 students are absent which is quite a big number.
-     Dropping these two columns from the dataset.
+    - In CS-406 and CS-412 there are 85 and 79 students are absent which is quite a big number.
+    - Dropping these two columns from the dataset.
 
 ##### 5. NORMALIZATION AND STANDARIZATION:
 
@@ -168,8 +164,8 @@ algorithm that can handle sparse gradients on noisy problems
 Following graph shows;
 
 ```
- Loss function also decrease with increasing epoch.
- Model work great with validation set also.
+- Loss function also decrease with increasing epoch.
+- Model work great with validation set also.
 ```
 ##### b. Gradient Boosting Regressor
 
@@ -180,8 +176,8 @@ for this next model in order to minimize the error.
 Following graph shows;
 
 ```
- Deviance also decreases with increasing iterations
- Model work well with test set also.
+- Deviance also decreases with increasing iterations
+- Model work well with test set also.
 ```
 
 #### COMPARISION BTWEEN MODELS:
