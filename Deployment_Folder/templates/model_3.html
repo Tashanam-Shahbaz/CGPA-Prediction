@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>MODEL 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../static/main.css">
+</head>
+<body class="my_color">
+
+<div class="container text-center p-5">
+  <form class="form-horizontal" action="/model_3" method="post">
+    <h2 class="p-5 my_main_h2"><strong><em>All Four Year CGPA Predict</em></strong></h2>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">PH-121</label>
+
+      <div class="col-sm-10">
+        <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="PH-121" id="PH-121">
+            <option value="11">A+</option>
+            <option value="11">A</option>
+            <option value="10">A-</option>
+            <option value="9">B+</option>
+            <option value="8">B</option>
+            <option value="7">B-</option>
+            <option value="6">C+</option>
+            <option value="5">C</option>
+            <option value="4">C-</option>
+            <option value="3">D+</option>
+            <option value="2">D</option>
+            <option value="0">F</option>
+            <option value="1">P</option>
+            <option value="0">IP</option>
+            <option value="0">X</option>
+            <option value="0">I</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+
+         </select>   
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="email">HS-101</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="HS-101" >
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CY-105</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CY-105">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">HS-105/12</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="HS-105/12">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">MT-111</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="MT-111">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+             </select>  
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-105</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-105">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+      </div>
+    </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-106</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-106">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EL-102</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EL-102">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EE-119</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EE-119">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">ME-107</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="ME-107">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-107</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-107">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">HS-205/20</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="HS-205/20">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">MT-222</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="MT-222">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EE-222</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EE-222">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">MT-224</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="MT-224">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-210</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-210">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      					
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-211</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-211">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-203</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-203">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-214</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-214">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EE-217</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EE-217">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-212</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-212">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-215</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-215">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+    
+      
+
+       
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">MT-331</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="MT-331">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EF-303</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EF-303">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">HS-304</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="HS-304">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-301</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-301">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-302</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-302">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">TC-383</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="TC-383">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">EL-332</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="EL-332">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-318</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-318">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-306</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-306">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+    
+ 
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-312</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-312">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-317</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-317">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+      
+      
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">MT-442</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="MT-442">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-403</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-403">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-421'</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-421">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-414</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-414">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-419</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-419">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">CS-423</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm form-control" aria-label=".form-select-sm example" name="CS-423">
+                <option value="11">A+</option>
+                <option value="11">A</option>
+                <option value="10">A-</option>
+                <option value="9">B+</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C+</option>
+                <option value="5">C</option>
+                <option value="4">C-</option>
+                <option value="3">D+</option>
+                <option value="2">D</option>
+                <option value="0">F</option>
+                <option value="1">P</option>
+                <option value="0">IP</option>
+                <option value="0">X</option>
+                <option value="0">I</option>
+                <option value="0">W</option>
+                <option value="0">WU</option>
+              </select>
+        </div>
+      </div>
+
+
+
+      <div class="form-group result">
+        <label class="control-label col-sm-2" for="email">Predicted CGPA : </label>
+        <div class="col-sm-10">
+            {{data}}
+        </div>
+    </div>
+
+
+
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
