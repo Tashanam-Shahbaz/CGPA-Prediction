@@ -2,7 +2,7 @@
 
 <img src="./img.jpeg" />
 
-## 🚀 About Project 
+## 👋 About Project 
 ------------
 In this project, we will experiment with a real world dataset of grades with CGPA, and to explore how
 machine learning algorithms can be used to find the patterns in data.
@@ -11,37 +11,37 @@ machine learning algorithms can be used to find the patterns in data.
 required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING** algorithms.
 
 
-## 📂 Project Structure
+## 🌳 Structure
 ------------
 
-	├── Deployment_Folder
-	│   ├── statics
-	│   │   ├── main.css
+	├── 📁 Deployment_Folder
+	│   ├── 📁 statics
+	│   │   ├── 📄 main.css
 	│   │
-	│   ├── templates
-	│   │   ├── index.html
-	│   │   ├── model_1.html
-	│   │   ├── model_2.html
-	│   │   └── model_3.html
+	│   ├── 📁 templates
+	│   │   ├── 📄 index.html
+	│   │   ├── 📄 model_1.html
+	│   │   ├── 📄 model_2.html
+	│   │   └── 📄 model_3.html
 	│   │
-	│   ├── Dockerfile
+	│   ├── 📄 Dockerfile
 	│   │
-	│   ├── Procfile
+	│   ├── 📄 Procfile
 	│   │
-	│   ├── app.py
+	│   ├── 📄 app.py
 	│   │
-	│   ├── GradientBoostingRegressor.pkl
-	│   ├── linear_regression.pkl
-	│   ├── RandomForestRegressor.pkl
-	│   └── requirements.txt
+	│   ├── 🖼️ GradientBoostingRegressor.pkl
+	│   ├── 🖼️ linear_regression.pkl
+	│   ├── 🖼️ RandomForestRegressor.pkl
+	│   └── 📄 requirements.txt
 	│   │
-	├── The_Grades_Dataset.csv
+	├── 🗨️ The_Grades_Dataset.csv
 	│   │
-	├── main_notebook.ipynb
+	├── 💣 main_notebook.ipynb
 	│   │
-	├── LICENCS
+	├── 📄 LICENCS
 	│   │
-	└── README.md
+	└── 📄 README.md
 
 ## 🔮 User Interface
 ------------
@@ -57,11 +57,19 @@ required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING*
 - <a href="https://docs.docker.com/get-started/">Docker</a> 
 - Docker Desktop
 
+Move in a woking directory
+
     `cd Deployment_Folder`
+
+Create Virtual Enviroment
 
     `python venv -m my-venv`
 
+Activate Virtual Enviroment
+
     `.\my-venv\Scipts\activate`
+
+Install all Requirements
 
     `pip install requirements.txt`
      
