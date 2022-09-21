@@ -1,3 +1,5 @@
+# Prediction of Cumulative Grade Point Average 😎
+
 ## 👋 About Project 
 ------------
 In this project, we will experiment with a real world dataset of grades with CGPA, and to explore how
