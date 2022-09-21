@@ -10,12 +10,6 @@ machine learning algorithms can be used to find the patterns in data.
  We have a dataset of 42 features of different courses. In corresponding to these we are
 required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING** algorithms.
 
-#### Features:
-------------
-
-- 🤩 This project will let the users to transcribe there `.flac` or `.wav` **audio** file.
-- 🥳 Translate the transcribtion into Urdu Language.
-- 😋 Extract the Key points of text.
 
 ## 📂 Project Organization
 ------------
