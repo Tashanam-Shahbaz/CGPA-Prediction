@@ -5,7 +5,7 @@ machine learning algorithms can be used to find the patterns in data.
 
  We have a dataset of 42 features of different courses. In corresponding to these we are required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING** algorithms.
 
-<img src="./report_images/check_2.png" />
+<p align="center"> <img src="./report_images/check_2.png" /> </p>
 
 ## 🌳 Structure
 ------------
