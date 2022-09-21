@@ -3,8 +3,8 @@
 In this project, we will experiment with a real world dataset of grades with CGPA, and to explore how
 machine learning algorithms can be used to find the patterns in data.
 
- We have a dataset of 42 features of different courses. In corresponding to these we are
-required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING** algorithms.
+ We have a dataset of 42 features of different courses. In corresponding to these we are required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING** algorithms.
+
 <img src="./report_images/check.png" />
 
 ## 🌳 Structure
