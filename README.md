@@ -17,21 +17,30 @@ required to predict CGPA. We can solve this problem using **SUPERVISED LEARNING*
 ├── Deployment_Folder
 │   ├── statics
 │   │   ├── main.css
+│   │
 │   ├── templates
 │   │   ├── index.html
 │   │   ├── model_1.html
 │   │   ├── model_2.html
-│   │   ├── model_3.html
+│   │   └── model_3.html
+│   │
 │   ├── Dockerfile
+│   │
 │   ├── Procfile
+│   │
 │   ├── app.py
+│   │
 │   ├── GradientBoostingRegressor.pkl
 │   ├── linear_regression.pkl
 │   ├── RandomForestRegressor.pkl
-│   ├── requirements.txt
+│   └── requirements.txt
+│   │
 ├── The_Grades_Dataset.csv
+│   │
 ├── main_notebook.ipynb
+│   │
 ├── LICENCS
+│   │
 └── README.md
 
 ## 🔮 User Interface
