@@ -124,7 +124,7 @@ To open the app in your default browser
 ## 🧐 Medium Blog
 ------------
 
-    - If you want learn more. You can read this <a href="https://medium.com/@tashanamshahbaz72/prediction-of-cumulative-grade-point-average-using-machine-learning-algorithms-f495d7ede3ee">Blog.</a>
+If you want learn more. You can read this <a href="https://medium.com/@tashanamshahbaz72/prediction-of-cumulative-grade-point-average-using-machine-learning-algorithms-f495d7ede3ee">Blog.</a>
 
 ## 📋 License
 ------------
