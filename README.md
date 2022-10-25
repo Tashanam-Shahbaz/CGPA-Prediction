@@ -121,6 +121,11 @@ To open the app in your default browser
     - Google Colaboratory
     - Microsoft Excel
 
+## 🧐 Medium Blog
+------------
+
+    - If you want learn more. You can read this <a href="https://medium.com/@tashanamshahbaz72/prediction-of-cumulative-grade-point-average-using-machine-learning-algorithms-f495d7ede3ee">Blog.</a>
+
 ## 📋 License
 ------------
 
